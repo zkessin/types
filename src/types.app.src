@@ -1,0 +1,12 @@
+{application, types,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { types_app, []}},
+  {env, []}
+ ]}.
